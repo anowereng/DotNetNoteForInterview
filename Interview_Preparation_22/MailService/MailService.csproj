@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="SendGrid" Version="9.27.0" />
+		<PackageReference Include="SendGrid.Extensions.DependencyInjection" Version="1.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\DomainService\DomainService.csproj" />
+	</ItemGroup>
+
+</Project>
